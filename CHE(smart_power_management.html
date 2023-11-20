@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Energy Management: A Sustainable Future</title>
+    
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f8f8f8;
+      }
+
+      
+header {
+    background-color: #f3ecec;
+    color: rgb(42, 30, 30);
+    padding: 15px 0;
+}
+
+.header-content {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 20px; 
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+      #hero {
+        text-align: center;
+        padding: 100px 0;
+        color: #333;
+      }
+
+      #hero img {
+        max-width: 100%;
+        height: auto;
+      }
+     
+
+
+
+     
+#technologies {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.technology-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.technology-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.technology-item h3 {
+    color: #333;
+}
+
+.technology-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+      #about,
+      #benefits,
+      #technologies,
+      #case-studies,
+      #interactive,
+      #call-to-action,
+      #faq,
+      #contact {
+        padding: 80px 0;
+        text-align: center;
+      }
+      #about {
+    position: relative;
+    overflow: hidden;
+}
+
+#about {
+  
+    background-image: url('https://www.ansto.gov.au/sites/default/files/styles/hero_image/public/hero-images/Enviornment%20-%20Crop%20Hands%20Holding%20Globe%20Glass%20In%20Green%20Forest%20-%20Environment%20Concept%20-%20Usa%20elements%20of%20this%20image%20furnished%20by%20NASAshutterstock_1310886638_0.jpg?h=af30b874&itok=ZdqVaVzM');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #fff;
+}
+
+#about h2 {
+    color: #1c1919;
+    text-align: center;
+}
+
+#about p {
+  font-style: bold;
+    color: #191717;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+      #contact {
+        background-color: #333;
+        color: white;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      #benefits {
+        background-color: #fff;
+        padding: 80px 0;
+      }
+
+      .benefit-item {
+        text-align: center;
+        margin: 20px;
+      }
+
+      .benefit-item img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+      }
+
+      .benefit-item h3 {
+        color: #333;
+      }
+
+      .benefit-item p {
+        color: #666;
+      }
+
+      #case-studies {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.case-study {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.case-study img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.case-study h3 {
+    color: #333;
+}
+
+.case-study p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.case-study .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.case-study .cta-button:hover {
+    background-color: #ff4500;
+}
+#interactive {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#interactive h2 {
+    color: #333;
+}
+
+#interactive p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#start-demo,
+#demo-results {
+    margin-top: 20px;
+}
+
+#start-demo {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-demo:hover {
+    background-color: #ff4500;
+}
+
+#demo-results p {
+    color: #333;
+    font-weight: bold;
+}
+
+#call-to-action {
+    background-color: #333;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#call-to-action h2 {
+    margin-bottom: 20px;
+}
+
+#call-to-action p {
+    color: #ddd;
+    line-height: 1.6;
+}
+
+#call-to-action .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#call-to-action .cta-button:hover {
+    background-color: #ff4500;
+}
+#faq {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+#faq h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+
+
+
+#contact {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff4500;
+}
+
+    </style>
+
+    
+
+
+  </head>
+
+  <body>
+  <header>
+  <div class="header-content">
+      <div class="logo">
+          <img src="https://lpu2017.files.wordpress.com/2015/08/unnamed.png" alt="Your Logo">
+      </div>
+      <h1>Smart Energy Management: A Sustainable Future</h1>
+      <nav>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#technologies">Technologies</a></li>
+              <li><a href="#case-studies">Case Studies</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      <fieldset style="border: 2px solid #140b0b; border-radius: 10px; padding: 20px; margin: 20px; text-align: center; background-color: orange;">
+        <legend style="font-size: 18px; font-weight: bold; color: #100202;">Meet the Creators</legend>
+        <p style="font-size: 16px; color: #666;">
+            creator-info: 
+      <span style="font-weight: bold; color: #333;">Anurag Kumar</span> | 
+      <span style="font-weight: bold; color: #333;">Tushar Singh</span> | 
+      <span style="font-weight: bold; color: #333;">Umanand Kumar</span>
+  </p>
+</fieldset>
+      
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <img
+        src="https://y6b8k9e7.stackpathcdn.com/wp-content/uploads/2020/06/shutterstock_411063283.jpg"
+        alt="Smart Energy Management"
+        width="100%"
+      />
+      <h2>Empowering a Sustainable Future through Smart Energy Management</h2>
+      <a
+        href="https://youtu.be/FGzR6_IjAdo?si=SrXHO0vVd4lt1H2a"
+        class="cta-button"
+        id="home" target="_blank">Learn More</a>
+    </section>
+
+   
+   <!-- About Section -->
+<section id="about">
+  <div class="container">
+      <h2>About Smart Energy Management</h2>
+      <p>
+          Smart Energy Management is a cutting-edge solution designed to revolutionize the way we consume and manage energy.
+          Our approach leverages advanced technologies such as Internet of Things (IoT), machine learning, and data analytics
+          to optimize energy usage in various settings, including homes, businesses, and industrial facilities.
+      </p>
+      <p>
+          At the core of our philosophy is a commitment to sustainability. By intelligently monitoring and controlling energy
+          consumption, we aim to reduce environmental impact and contribute to a greener, more sustainable future.
+      </p>
+      
+  </div>
+</section>
+
+
+    <!-- Benefits Section -->
+      <section id="benefits">
+        <div class="container">
+          <h2>Benefits of Smart Energy Management</h2>
+
+          <div class="benefit-item">
+            <img
+              src="https://www.alwaysforevergreen.com/wp-content/uploads/2020/08/AFG_Energy-Efficient_Icon1.png"
+              alt="Energy Efficiency"
+            />
+            <h3>Energy Efficiency</h3>
+            <p>
+              Smart energy management optimizes energy consumption, reducing
+              waste and improving overall efficiency.
+            </p>
+          </div>
+
+          <div class="benefit-item">
+            <img
+              src="https://vectorified.com/images/cost-saving-icon-7.png"
+              alt="Cost Savings"
+            />
+            <h3>Cost Savings</h3>
+            <p>
+              By intelligently managing energy usage, businesses can experience
+              significant cost savings over time.
+            </p>
+          </div>
+
+          <div class="benefit-item">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/ecological-interaction-flat/64/ecological-nature-forest-environment-wildlife-1024.png"
+              alt="Environmental Impact"
+            />
+            <h3>Environmental Impact</h3>
+            <p>
+              Reducing energy waste contributes to a smaller carbon footprint,
+              positively impacting the environment.
+            </p>
+          </div>
+
+          <div class="benefit-item">
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/ecology-environment-16/64/Save-World-ecology-environment-sustainability-earth-1024.png"
+              alt="Sustainability"
+            />
+            <h3>Sustainability</h3>
+            <p>
+              Smart energy practices align with sustainable development goals,
+              promoting a greener and cleaner future.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    
+    <!-- Technologies Section -->
+<section id="technologies">
+  <div class="container">
+      <h2>Smart Energy Management Technologies</h2>
+
+      <div class="technology-item">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.p43ABfnjLBqkXzpi3YNTewHaKo&pid=Api&P=0&h=180">
+          <h3>Internet of Things (IoT)</h3>
+          <p>
+              IoT enables seamless communication between devices, allowing for real-time monitoring and control of energy
+              consumption in various environments.
+          </p>
+      </div>
+
+      <div class="technology-item">
+          <img src="https://www.pngkit.com/png/full/182-1820449_whitepages-pro-machine-learning-machine-learning-model-icon.png" alt="Machine Learning">
+          <h3>Machine Learning</h3>
+          <p>
+              Machine learning algorithms analyze historical energy data to predict patterns and optimize energy usage,
+              leading to increased efficiency.
+          </p>
+      </div>
+
+      <div class="technology-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/2857/2857309.png" alt="Data Analytics">
+          <h3>Data Analytics</h3>
+          <p>
+              Advanced data analytics tools provide insights into energy usage patterns, helping businesses make informed
+              decisions to reduce waste.
+          </p>
+      </div>
+
+      <div class="technology-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/2289/2289266.png" alt="Automation">
+          <h3>Automation</h3>
+          <p>
+              Automated systems streamline energy management processes, ensuring quick responses to changing conditions and
+              minimizing manual intervention.
+          </p>
+      </div>
+  </div>
+</section>
+
+
+   
+    <!-- Case Studies Section -->
+<section id="case-studies">
+  <div class="container">
+      <h2>Case Studies</h2>
+
+      <div class="case-study">
+          <img src="https://www.compliancequest.com/wp-content/uploads/2023/02/environmental-compliance-video.jpg" alt="Case Study 1">
+          <h3>Optimizing Residential Energy Consumption</h3>
+          <p>
+              Learn how Smart Energy Management transformed the energy usage in a residential community, resulting in
+              significant cost savings and reduced environmental impact.
+          </p>
+          <a href="https://www2.deloitte.com/us/en/insights/industry/power-and-utilities/smart-energy-management.html" class="cta-button" target="_blank">Read More</a>
+      </div>
+
+      <div class="case-study">
+          <img src="https://previews.123rf.com/images/gulzarkarimn/gulzarkarimn2308/gulzarkarimn230802616/211772552-conceptual-image-of-environmental-pollution-mixed-media-mixed-media.jpg" alt="Case Study 2">
+          <h3>Industrial Energy Efficiency Overhaul</h3>
+          <p>
+              Discover the success story of an industrial facility that implemented smart energy management technologies,
+              enhancing operational efficiency and sustainability.
+          </p>
+          <a href="https://www.energy.gov.za/EEE/Projects/Industrial%20Energy%20Management/IEM%20Training/Modules/IEMTCModule1_final.pdf" class="cta-button" target="_blank">Read More</a>
+      </div>
+
+
+
+  </div>
+</section>
+
+
+   
+   <!-- Interactive Section -->
+<section id="interactive">
+  <div class="container">
+      <h2>Interactive Elements</h2>
+
+      <p>
+          Explore our interactive demo to see how smart energy management can make a difference in real-time.
+      </p>
+
+      <a href="https://www.fourfaithpower.com/energy-management-system/eems-system.html?gclid=CjwKCAiA6byqBhAWEiwAnGCA4Kk67vKUtPzG3yUuN3WtnPfqCIuh1WHiPsVbzubqhaZY6yk0z4Z_QRoC8XUQAvD_BwE"  id="start-demo" class="cta-button" target="_blank">Start Demo</a>
+
+      
+  </div>
+</section>
+
+
+   <!-- Call to Action Section -->
+<section id="call-to-action">
+  <div class="container">
+      <h2>Ready to Adopt Smart Energy Management?</h2>
+      <p>
+          Explore our resources and take the first step towards a more sustainable and efficient future.
+      </p>
+      <a href="https://www.se.com/in/en/partners/contractors/?utm_source=google&utm_purpose=marketo&utm_campaign=in_google_search_nonbrand_multi_global-bu_pp_contractors_flight-2&utm_term=energy%20systems%20and%20management&utm_medium=cpc&gad_source=1&gclid=CjwKCAiA6byqBhAWEiwAnGCA4Mtg6Q35C6Um6ChaRPXiNAQ9aBwhUKFo5gBnvTTGLgkxr8cOHXx-eBoCtksQAvD_BwE&gclsrc=aw.ds" class="cta-button" target="_blank">Explore Resources</a>
+  </div>
+</section>
+
+   
+    <!-- FAQ Section -->
+<section id="faq">
+  <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+          <h3>What is Smart Energy Management?</h3>
+          <p>
+              Smart Energy Management is an innovative approach that leverages technology to optimize energy consumption,
+              reduce waste, and promote sustainability in various settings, including homes, businesses, and industries.
+          </p>
+      </div>
+
+      <div class="faq-item">
+          <h3>How can I implement Smart Energy Management in my home?</h3>
+          <p>
+              Implementing Smart Energy Management in your home involves adopting energy-efficient appliances,
+              utilizing smart devices for monitoring and control, and making informed decisions based on energy usage data.
+          </p>
+      </div>
+
+      <div class="faq-item">
+          <h3>What are the benefits of Smart Energy Management?</h3>
+          <p>
+              The benefits include increased energy efficiency, cost savings, reduced environmental impact, and a
+              contribution to a more sustainable future.
+          </p>
+      </div>
+
+      
+  </div>
+</section>
+
+
+   <!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+      <h2>Contact Us</h2>
+
+      <p>
+          Have questions or need more information? Reach out to us! We're here to assist you.
+      </p>
+
+      <div class="contact-form">
+          <form action="backend.php" method="post">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button type="submit" class="cta-button">Send Message</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 OMEGA. All rights reserved.</p>
+      
+    </footer>
+
+    
+  </body>
+</html>
